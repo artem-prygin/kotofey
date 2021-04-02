@@ -1,0 +1,432 @@
+.about
+    &-top
+        margin-top: 0
+        padding-top: 200px
+    &-how
+        &__wrapper
+            margin-bottom: 250px
+    &-cat
+        position: absolute
+        right: 0
+        bottom: -150px
+        img
+            height: 600px
+    &-descr
+        margin: auto
+        max-width: 500px
+        text-align: center
+    &-actions
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        flex-wrap: wrap
+        &__wrapper
+            padding: 100px 0
+            position: relative
+            z-index: 3
+    &-bubble
+        position: absolute
+        z-index: -2
+        left: 0
+        width: 100%
+        top: 800px
+        img
+            height: 1200px
+            width: 100%
+        &__lap, &__mob
+            display: none
+
+    &-action
+        padding-left: 50px
+        margin-bottom: 50px
+        width: 33%
+        flex-shrink: 0
+        position: relative
+        z-index: 2
+        &__img
+            height: 80px
+            width: 80px
+            text-align: center
+            margin-bottom: 20px
+            cursor: pointer
+            position: relative
+            z-index: 2
+            img
+                position: relative
+                z-index: 2
+            &::after
+                content: ''
+                position: absolute
+                z-index: 1
+                right: -30px
+                top: 0
+                -webkit-border-radius: 50%
+                -moz-border-radius: 50%
+                border-radius: 50%
+                background: #FCF1E2
+                transition: background-color .3s
+                height: 80px
+                width: 80px
+            &:hover
+                &::after
+                    background: $green
+            img
+                height: 100%
+        &__title
+            width: 220px
+            font-weight: 900
+            font-size: 25px
+            margin-bottom: 20px
+        &__descr
+            width: 220px
+
+
+    &-types
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        &__subtitle
+            margin-bottom: 30px
+            text-align: center
+        &__wrapper
+            margin-bottom: 100px
+    &-type
+        padding: 100px 50px
+        width: 370px
+        height: 500px
+        -webkit-border-radius: 10px
+        -moz-border-radius: 10px
+        border-radius: 10px
+        &__img
+            margin-bottom: 40px
+        &__title
+            margin-bottom: 20px
+            font-size: 25px
+            font-weight: 900
+        &__descr
+            font-weight: 500
+            font-size: 15px
+        &__lux
+            background: #E0E8E1
+        &__apart
+            background: #fff
+        &__standart
+            background: #FCF1E2
+
+    &-food
+        &__wrapper
+            margin-bottom: 100px
+        &__header
+            max-width: 600px
+            text-align: left
+        &__title
+            text-align: left
+        &__subtitle
+            margin-bottom: 50px
+            span
+                display: block
+        &__options
+            display: flex
+            justify-content: space-between
+        &__img
+            display: flex
+            align-items: center
+            justify-content: center
+            height: 100px
+            margin-bottom: 30px
+        &__list
+            li
+                line-height: 1.4
+                padding: 10px 30px
+                position: relative
+                &::before
+                    content: ''
+                    position: absolute
+                    width: 13px
+                    height: 13px
+                    left: 0
+                    top: 50%
+                    transform: translateY(-50%)
+                    -webkit-border-radius: 50%
+                    -moz-border-radius: 50%
+                    border-radius: 50%
+                    background: $green
+
+    &-norm
+        padding: 70px 100px
+        width: 670px
+        background: #fff
+        position: relative
+        &__wrapper
+            margin-bottom: 450px
+            .container
+                position: relative
+        &__img
+            position: absolute
+            bottom: -50%
+            right: -50%
+        &__ball
+            position: absolute
+            left: 0
+            bottom: -350px
+
+
+    &-faq
+        &__title
+            margin: 0 0 50px 0
+            text-align: left
+        &__block
+            display: flex
+            margin-bottom: 20px
+        &__open
+            display: flex
+            align-items: center
+            justify-content: center
+            font-size: 25px
+            color: #fff
+            -webkit-border-radius: 50%
+            -moz-border-radius: 50%
+            border-radius: 50%
+            cursor: pointer
+            background: $orange
+            line-height: 1
+            width: 47px
+            height: 47px
+            flex-shrink: 0
+            transition: background-color .3s
+            &:hover, &-active
+                background: $green
+        &__text
+            width: 600px
+            padding-left: 50px
+        &__q
+            margin-bottom: 15px
+            padding-top: 10px
+            font-size: 20px
+            font-weight: 700
+            cursor: pointer
+        &__answer
+            display: none
+        &__block
+            &:first-child
+                .about-faq__answer
+                    display: block
+
+    &-arrow
+        display: flex
+        align-items: center
+        justify-content: center
+        position: absolute
+        bottom: -50px
+        color: #fff
+        background: $green
+        transition: background-color .3s
+        -webkit-border-radius: 50%
+        -moz-border-radius: 50%
+        border-radius: 50%
+        width: 70px
+        height: 70px
+        font-size: 30px
+        &:hover
+            background: lighten($green, 10)
+        &__left
+            left: 40px
+            padding-right: 3px
+        &__right
+            right: 40px
+            padding-left: 3px
+
+
+@media screen and (max-width: 1199px)
+    .about
+        &-bubble
+            top: 700px
+            img
+                height: 1100px
+        &-top
+            padding-top: 100px
+        &-cat
+            img
+                height: 400px
+        &-types
+            &__wrapper
+                margin-bottom: 200px
+        &-type
+            height: 400px
+            margin: auto
+            &__img
+                img
+                    width: auto!important
+        &-food
+            &__wrapper
+                margin-bottom: 50px
+            &__option
+                width: 30%
+                flex-shrink: 0
+        &-norm
+            &__img
+                right: -20%
+                width: 400px
+                img
+                    width: 100%
+
+
+@media screen and (max-width: 991px)
+    .about
+        &-how
+            &__wrapper
+                margin-bottom: 300px
+        &-action
+            width: 30%
+            &__title
+                width: auto
+                font-size: 20px
+            &__descr
+                width: auto
+        &-cat
+            bottom: -215px
+            img
+                height: 350px
+        &-actions
+            &__wrapper
+                padding: 50px 0
+        &-food
+            &__title
+                font-size: 20px
+            &__img
+                margin-bottom: 10px
+                justify-content: flex-start
+        &-norm
+            &__img
+                right: 0
+        &-bubble
+            top: 770px
+            img
+                height: 1000px
+
+@media screen and (max-width: 767px)
+    .about
+        &-title, &-descr
+            max-width: 400px
+        &-top
+            padding-top: 50px
+        &-action
+            margin-bottom: 25px
+            width: 50%
+        &-cat
+            img
+                height: 250px
+        &-descr
+            font-size: 13px
+        &-arrow
+            &__right
+                right: 60px
+            &__left
+                left: 60px
+        &-food
+            &__option
+                margin-bottom: 20px
+                width: 100%
+            &__options
+                flex-direction: column
+            &__wrapper
+                margin-bottom: 50px
+            &__img
+                img
+                    width: 120px
+        &-types
+            &__wrapper
+                margin-bottom: 150px
+        &-norm
+            padding: 40px
+            width: 100%
+            &__img
+                top: 200px
+            &__ball
+                bottom: -420px
+        &-faq
+            &__text
+                padding-left: 20px
+            &__q
+                font-size: 15px
+        &-bubble
+            top: 565px
+            img
+                position: relative
+                width: 110%
+                left: -10%
+                height: 1150px
+
+@media screen and (max-width: 575px)
+    .about
+        &-descr
+            max-width: 290px
+        &-how
+            &__wrapper
+                padding-bottom: 100px
+        &-cat
+            right: 10px
+            img
+                height: 300px
+        &-actions
+            justify-content: space-around
+        &-action
+            padding-left: 0
+            width: 45%
+            &__title
+                font-size: 17px
+        &-type
+            padding: 50px 30px
+            max-width: 100%
+            height: 385px
+            &__img
+                img
+                    width: 100%
+        &-arrow
+            width: 45px
+            height: 45px
+            font-size: 25px
+            bottom: -35px
+            &__left
+                left: 0
+            &__right
+                right: 0
+        &-food
+            &__list
+                margin-left: 10px
+        &-norm
+            padding: 40px 20px
+            &__wrapper
+                margin-bottom: 400px
+            &__img
+                top: 280px
+                right: -10px
+                width: 250px
+            &__ball
+                left: 30px
+                bottom: -300px
+                height: 100px
+                img
+                    height: 100%
+        &-bubble
+            top: 650px
+            img
+                height: 1100px
+
+
+@media screen and (max-width: 424px)
+    .about
+        &-bubble
+            top: 600px
+            img
+                width: 150%
+                left: -25%
+                height: 1300px
+
+@media screen and (max-width: 374px)
+    .about
+        &-action
+            &__title
+                font-size: 15px
+
+

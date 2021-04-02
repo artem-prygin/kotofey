@@ -1,0 +1,80 @@
+.lottery
+    &-top
+        margin-bottom: 400px
+        position: relative
+        padding: 100px 0 100px
+    &-descr
+        color: $text
+    &-title
+        margin: 0 0 30px
+        text-align: left
+        color: $text
+        span
+            display: inline
+        &__wrapper
+            max-width: 400px
+    &-img
+        position: absolute
+        right: -400px
+        top: 0
+    &-form
+        background: #E2EDF4
+        &__success
+            display: none
+            padding: 200px 100px
+            background: #FBE4DF
+    &-loto
+        margin-bottom: 100px
+
+@media screen and (max-width: 1199px)
+    .lottery
+        &-top
+            margin-bottom: 300px
+        &-img
+            top: 175px
+            height: 400px
+            right: -200px
+            img
+                height: 100%
+        &-form
+            &__img
+                right: 0
+
+@media screen and (max-width: 991px)
+    .lottery
+        &-top
+            margin-bottom: 400px
+        &-img
+            top: 250px
+            right: -300px
+        &-form
+            padding: 50px 50px 550px 50px
+            &__success
+                padding: 50px 50px 550px 50px
+
+@media screen and (max-width: 767px)
+    .lottery
+        &-title
+            span
+                display: inline
+        &-form
+            padding-bottom: 350px
+            &__success
+                padding-bottom: 350px
+            &__img
+                width: 250px
+
+@media screen and (max-width: 575px)
+    .lottery
+        &-form
+            padding: 60px 25px 0
+            &__success
+                padding: 60px 25px 0
+            &__img
+                margin-left: auto
+
+
+@media screen and (max-width: 424px)
+    .lottery
+        &-title
+            font-size: 22px

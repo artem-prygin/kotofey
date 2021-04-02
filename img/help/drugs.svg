@@ -1,0 +1,149 @@
+<svg width="184" height="207" viewBox="0 0 184 207" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="135" height="167">
+<rect x="0.0219727" y="138.564" width="160" height="70" rx="10" transform="rotate(-59.9639 0.0219727 138.564)" fill="#E2EDF4"/>
+</mask>
+<g mask="url(#mask0)">
+<rect x="0.0219727" y="138.564" width="160" height="70" rx="10" transform="rotate(-59.9639 0.0219727 138.564)" fill="#FFC5C5"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="21" y="114" width="19" height="19">
+<circle cx="30.5474" cy="123.782" r="9.0459" transform="rotate(60 30.5474 123.782)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask1)">
+<circle cx="30.5474" cy="123.782" r="9.0459" transform="rotate(60 30.5474 123.782)" fill="white"/>
+<rect x="38.3813" y="119.26" width="10.6906" height="19.7365" transform="rotate(60 38.3813 119.26)" fill="#F0F5F9"/>
+</g>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="49" y="130" width="19" height="19">
+<circle cx="58.3393" cy="139.828" r="9.0459" transform="rotate(30 58.3393 139.828)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask2)">
+<circle cx="58.3393" cy="139.828" r="9.0459" transform="rotate(30 58.3393 139.828)" fill="white"/>
+<rect x="62.8623" y="131.995" width="10.6906" height="19.7365" transform="rotate(30 62.8623 131.995)" fill="#F0F5F9"/>
+</g>
+<mask id="mask3" mask-type="alpha" maskUnits="userSpaceOnUse" x="34" y="92" width="19" height="19">
+<circle cx="43.5015" cy="101.345" r="9.0459" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask3)">
+<circle cx="43.5015" cy="101.345" r="9.0459" fill="white"/>
+<rect x="43.5015" y="92.2994" width="10.6906" height="19.7365" fill="#F0F5F9"/>
+</g>
+<mask id="mask4" mask-type="alpha" maskUnits="userSpaceOnUse" x="62" y="108" width="19" height="19">
+<circle cx="71.2935" cy="117.391" r="9.0459" transform="rotate(60 71.2935 117.391)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask4)">
+<circle cx="71.2935" cy="117.391" r="9.0459" transform="rotate(60 71.2935 117.391)" fill="white"/>
+<rect x="79.1274" y="112.868" width="10.6906" height="19.7365" transform="rotate(60 79.1274 112.868)" fill="#F0F5F9"/>
+</g>
+<mask id="mask5" mask-type="alpha" maskUnits="userSpaceOnUse" x="48" y="68" width="19" height="19">
+<circle cx="57.5015" cy="77.0967" r="9.0459" transform="rotate(45 57.5015 77.0967)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask5)">
+<circle cx="57.5015" cy="77.0967" r="9.0459" transform="rotate(45 57.5015 77.0967)" fill="white"/>
+<rect x="63.8979" y="70.7002" width="10.6906" height="19.7365" transform="rotate(45 63.8979 70.7002)" fill="#F0F5F9"/>
+</g>
+<mask id="mask6" mask-type="alpha" maskUnits="userSpaceOnUse" x="76" y="84" width="19" height="19">
+<circle cx="85.2939" cy="93.1426" r="9.0459" transform="rotate(30 85.2939 93.1426)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask6)">
+<circle cx="85.2939" cy="93.1426" r="9.0459" transform="rotate(30 85.2939 93.1426)" fill="white"/>
+<rect x="89.8169" y="85.3086" width="10.6906" height="19.7365" transform="rotate(30 89.8169 85.3086)" fill="#F0F5F9"/>
+</g>
+<mask id="mask7" mask-type="alpha" maskUnits="userSpaceOnUse" x="61" y="45" width="19" height="19">
+<circle cx="70.5015" cy="54.58" r="9.0459" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask7)">
+<circle cx="70.5015" cy="54.58" r="9.0459" fill="white"/>
+<rect x="70.5015" y="45.5341" width="10.6906" height="19.7365" fill="#F0F5F9"/>
+</g>
+<mask id="mask8" mask-type="alpha" maskUnits="userSpaceOnUse" x="89" y="61" width="19" height="19">
+<circle cx="98.2934" cy="70.6258" r="9.0459" transform="rotate(30 98.2934 70.6258)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask8)">
+<circle cx="98.2934" cy="70.6258" r="9.0459" transform="rotate(30 98.2934 70.6258)" fill="white"/>
+<rect x="102.816" y="62.7919" width="10.6906" height="19.7365" transform="rotate(30 102.816 62.7919)" fill="#F0F5F9"/>
+</g>
+<mask id="mask9" mask-type="alpha" maskUnits="userSpaceOnUse" x="74" y="23" width="19" height="19">
+<circle cx="83.5015" cy="32.0633" r="9.0459" transform="rotate(30 83.5015 32.0633)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask9)">
+<circle cx="83.5015" cy="32.0633" r="9.0459" transform="rotate(30 83.5015 32.0633)" fill="white"/>
+<rect x="88.0244" y="24.2294" width="10.6906" height="19.7365" transform="rotate(30 88.0244 24.2294)" fill="#F0F5F9"/>
+</g>
+<mask id="mask10" mask-type="alpha" maskUnits="userSpaceOnUse" x="102" y="39" width="19" height="19">
+<circle cx="111.293" cy="48.1092" r="9.0459" transform="rotate(-30 111.293 48.1092)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask10)">
+<circle cx="111.293" cy="48.1092" r="9.0459" transform="rotate(-30 111.293 48.1092)" fill="white"/>
+<rect x="106.771" y="40.2753" width="10.6906" height="19.7365" transform="rotate(-30 106.771 40.2753)" fill="#F0F5F9"/>
+</g>
+</g>
+<rect x="11.0332" y="153.84" width="169.479" height="74.147" rx="10" transform="rotate(-44.9639 11.0332 153.84)" fill="#FFDBDB"/>
+<mask id="mask11" mask-type="alpha" maskUnits="userSpaceOnUse" x="36" y="137" width="20" height="20">
+<circle cx="46.3174" cy="147.085" r="9.5818" transform="rotate(75 46.3174 147.085)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask11)">
+<circle cx="46.3174" cy="147.085" r="9.5818" transform="rotate(75 46.3174 147.085)" fill="white"/>
+<rect x="55.5728" y="144.605" width="11.3239" height="20.9057" transform="rotate(75 55.5728 144.605)" fill="#F0F5F9"/>
+</g>
+<mask id="mask12" mask-type="alpha" maskUnits="userSpaceOnUse" x="60" y="161" width="20" height="20">
+<circle cx="70.354" cy="171.121" r="9.5818" transform="rotate(45 70.354 171.121)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask12)">
+<circle cx="70.354" cy="171.121" r="9.5818" transform="rotate(45 70.354 171.121)" fill="white"/>
+<rect x="77.1294" y="164.346" width="11.3239" height="20.9057" transform="rotate(45 77.1294 164.346)" fill="#F0F5F9"/>
+</g>
+<mask id="mask13" mask-type="alpha" maskUnits="userSpaceOnUse" x="56" y="118" width="20" height="20">
+<circle cx="65.7226" cy="127.679" r="9.5818" transform="rotate(15 65.7226 127.679)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask13)">
+<circle cx="65.7226" cy="127.679" r="9.5818" transform="rotate(15 65.7226 127.679)" fill="white"/>
+<rect x="68.2026" y="118.424" width="11.3239" height="20.9057" transform="rotate(15 68.2026 118.424)" fill="#F0F5F9"/>
+</g>
+<mask id="mask14" mask-type="alpha" maskUnits="userSpaceOnUse" x="80" y="142" width="20" height="20">
+<circle cx="89.7593" cy="151.716" r="9.5818" transform="rotate(75 89.7593 151.716)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask14)">
+<circle cx="89.7593" cy="151.716" r="9.5818" transform="rotate(75 89.7593 151.716)" fill="white"/>
+<rect x="99.0146" y="149.236" width="11.3239" height="20.9057" transform="rotate(75 99.0146 149.236)" fill="#F0F5F9"/>
+</g>
+<mask id="mask15" mask-type="alpha" maskUnits="userSpaceOnUse" x="77" y="97" width="20" height="20">
+<circle cx="86.6945" cy="106.707" r="9.5818" transform="rotate(60 86.6945 106.707)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask15)">
+<circle cx="86.6945" cy="106.707" r="9.5818" transform="rotate(60 86.6945 106.707)" fill="white"/>
+<rect x="94.9927" y="101.917" width="11.3239" height="20.9057" transform="rotate(60 94.9927 101.917)" fill="#F0F5F9"/>
+</g>
+<mask id="mask16" mask-type="alpha" maskUnits="userSpaceOnUse" x="101" y="121" width="20" height="20">
+<circle cx="110.731" cy="130.744" r="9.5818" transform="rotate(45 110.731 130.744)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask16)">
+<circle cx="110.731" cy="130.744" r="9.5818" transform="rotate(45 110.731 130.744)" fill="white"/>
+<rect x="117.506" y="123.969" width="11.3239" height="20.9057" transform="rotate(45 117.506 123.969)" fill="#F0F5F9"/>
+</g>
+<mask id="mask17" mask-type="alpha" maskUnits="userSpaceOnUse" x="96" y="77" width="20" height="20">
+<circle cx="106.168" cy="87.2336" r="9.5818" transform="rotate(15 106.168 87.2336)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask17)">
+<circle cx="106.168" cy="87.2336" r="9.5818" transform="rotate(15 106.168 87.2336)" fill="white"/>
+<rect x="108.648" y="77.9783" width="11.3239" height="20.9057" transform="rotate(15 108.648 77.9783)" fill="#F0F5F9"/>
+</g>
+<mask id="mask18" mask-type="alpha" maskUnits="userSpaceOnUse" x="120" y="101" width="20" height="20">
+<circle cx="130.205" cy="111.27" r="9.5818" transform="rotate(45 130.205 111.27)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask18)">
+<circle cx="130.205" cy="111.27" r="9.5818" transform="rotate(45 130.205 111.27)" fill="white"/>
+<rect x="136.98" y="104.495" width="11.3239" height="20.9057" transform="rotate(45 136.98 104.495)" fill="#F0F5F9"/>
+</g>
+<mask id="mask19" mask-type="alpha" maskUnits="userSpaceOnUse" x="116" y="58" width="20" height="20">
+<circle cx="125.642" cy="67.7597" r="9.5818" transform="rotate(45 125.642 67.7597)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask19)">
+<circle cx="125.642" cy="67.7597" r="9.5818" transform="rotate(45 125.642 67.7597)" fill="white"/>
+<rect x="132.417" y="60.9844" width="11.3239" height="20.9057" transform="rotate(45 132.417 60.9844)" fill="#F0F5F9"/>
+</g>
+<mask id="mask20" mask-type="alpha" maskUnits="userSpaceOnUse" x="140" y="82" width="20" height="20">
+<circle cx="149.679" cy="91.7962" r="9.5818" transform="rotate(-15 149.679 91.7962)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask20)">
+<circle cx="149.679" cy="91.7962" r="9.5818" transform="rotate(-15 149.679 91.7962)" fill="white"/>
+<rect x="147.199" y="82.5408" width="11.3239" height="20.9057" transform="rotate(-15 147.199 82.5408)" fill="#F0F5F9"/>
+</g>
+</svg>

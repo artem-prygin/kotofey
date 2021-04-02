@@ -1,0 +1,93 @@
+.contacts
+    &-text
+        max-width: 550px
+    &-top
+        display: flex
+        align-items: center
+        justify-content: space-around
+        padding: 50px 0
+    &-title
+        margin: 0 0 30px
+        text-align: left
+    &-descr
+        max-width: 350px
+    &-img
+        width: 700px
+        img
+            width: 100%
+    &-form
+        margin-bottom: 200px
+    &-info
+        &__title
+            margin: 0 0 50px
+            text-align: left
+    &-docs
+        display: flex
+        align-items: center
+        justify-content: flex-start
+        &__list
+            display: flex
+            flex-direction: column
+            flex-wrap: wrap
+            margin-left: 100px
+            height: 175px
+            li
+                width: 290px
+
+@media screen and (max-width: 991px)
+    .contacts
+        &-top
+            align-items: flex-start
+            flex-direction: column
+        &-text
+            margin-bottom: 30px
+            width: 100%
+        &-docs
+            &__list
+                height: auto
+
+
+@media screen and (max-width: 767px)
+    .contacts
+        &-img
+            width: 100%
+
+@media screen and (max-width: 575px)
+    .contacts
+        &-form
+            margin-bottom: 100px
+        &-docs
+            align-items: flex-start
+            flex-direction: column
+            &__img
+                margin-bottom: 30px
+            &__list
+                margin-left: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

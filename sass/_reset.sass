@@ -1,0 +1,155 @@
+*
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+html
+    overflow-x: hidden
+
+body
+    margin: 0
+    padding: 15px 0 0 0
+    background: $main
+    font-family: Mont, sans-serif
+    line-height: 1.2
+    color: $text
+    overflow-x: hidden
+
+a, a:hover, a:visited
+    text-decoration: none
+
+input, button, textarea
+    border: none
+    outline: none
+    font-family: Mont, sans-serif
+
+h1,h2,h3,h4,h5,h6
+    margin: 0
+
+ul, li
+    list-style: none
+    padding: 0
+    margin: 0
+
+::-webkit-input-placeholder  /* Chrome/Opera/Safari */
+    color: $opacity
+    font-weight: 500
+
+::-moz-placeholder  /* Firefox 19+ */
+    color: $opacity
+    font-weight: 500
+
+::-ms-input-placeholder  /* IE 10+ */
+    color: $opacity
+    font-weight: 500
+
+::-moz-placeholder  /* Firefox 18- */
+    color: $opacity
+    font-weight: 500
+
+.container
+    margin: auto
+    padding: 0 15px
+    max-width: 1200px
+
+.title
+    margin: 0 auto 30px
+    text-align: center
+    font-weight: 900
+    font-size: 40px
+    max-width: 700px
+    span
+        display: block
+
+.smallTitle
+    margin-bottom: 20px
+    font-weight: 700
+    font-size: 25px
+
+.descr
+    font-size: 15px
+
+.btn
+    display: block
+    margin: 0 auto 30px
+    padding: 25px 0
+    text-align: center
+    width: 270px
+    background: $orange
+    color: #fff
+    -webkit-border-radius: 7px
+    -moz-border-radius: 7px
+    border-radius: 7px
+    font-size: 17px
+    text-transform: uppercase
+    font-weight: 900
+    transition: background-color .3s
+    cursor: pointer
+    &:hover
+        background: $darkOrange
+
+.input
+    &-title
+        display: none
+        margin-bottom: 10px
+        color: #fff
+        font-size: 17px
+        &__black
+            color: $textLight
+
+@media screen and (max-width: 1199px)
+    .container
+        max-width: 960px
+
+@media screen and (max-width: 991px)
+    .container
+        max-width: 720px
+        padding: 0 25px
+    .btn
+        font-size: 15px
+
+@media screen and (max-width: 767px)
+    .container
+        padding: 0 15px
+        max-width: 540px
+    .title
+        margin: 0 auto 20px
+        font-size: 25px
+    .smallTitle
+        font-size: 20px
+    .descr
+        font-size: 13px
+
+@media screen and (max-width: 575px)
+    .container
+        max-width: 500px
+    .input
+        &-title
+            font-size: 13px
+
+@media screen and (max-width: 374px)
+    .title
+        font-size: 22px
+
+
+.owl-dots
+    display: flex
+    position: relative
+    top: 25px
+    margin: auto
+    width: 150px
+    justify-content: space-around
+.owl-dot
+    background: rgba(#ccc, .5)!important
+    -webkit-border-radius: 50%
+    -moz-border-radius: 50%
+    border-radius: 50%
+    width: 20px
+    height: 20px
+.owl-dots .active
+    background: $green!important
+@media screen and (max-width: 575px)
+    .owl
+        &-dot
+            width: 15px
+            height: 15px

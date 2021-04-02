@@ -1,0 +1,336 @@
+.pet
+    &-overlay
+        display: none
+        position: fixed
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background: #fff
+        z-index: 99
+    &-bubble
+        display: flex
+        align-items: center
+        justify-content: center
+        padding: 35px
+        background: url(../img/petcat/pet-bubble.svg) center no-repeat
+        -webkit-background-size: contain
+        background-size: contain
+        position: absolute
+        top: -220px
+        left: -50px
+        width: 350px
+        height: 270px
+        text-align: center
+        span
+            font-size: 15px
+            color: $green
+            font-weight: 700
+            font-style: italic
+        &__mini
+            &1
+                position: absolute
+                left: 0
+                top: 40%
+                z-index: 101
+            &2
+                position: absolute
+                left: -50px
+                top: 15px
+                z-index: 101
+    &-modal
+        display: none
+        position: fixed
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        width: 400px
+        z-index: 100
+        &__cat
+            align-items: center
+            position: relative
+        &__img
+            position: relative
+            &::after
+                background: $green
+
+    &-game
+        display: none
+        position: fixed
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+        width: 1170px
+        height: 800px
+        align-items: center
+        justify-content: center
+        z-index: 1000
+        &__overlay
+            display: none
+            position: fixed
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            background: rgba(#fff,.8)
+            z-index: 999
+        &__close
+            position: absolute
+            line-height: 1
+            top: 40px
+            right: 40px
+            height: 70px
+            width: 70px
+            display: flex
+            align-items: center
+            justify-content: center
+            color: #fff
+            -webkit-border-radius: 50%
+            -moz-border-radius: 50%
+            border-radius: 50%
+            background: $green
+            font-size: 40px
+            cursor: pointer
+            z-index: 1002
+        &__wrapper
+            padding-left: 150px
+            display: flex
+            align-items: center
+            justify-content: flex-start
+            width: 100%
+            background: #fff
+            height: 800px
+            -webkit-border-radius: 8px
+            -moz-border-radius: 8px
+            border-radius: 8px
+        &__mainBubble
+            position: absolute
+            right: 0
+            top: 0
+            svg path
+                transition: fill .3s
+            &-blue
+                svg path
+                    fill: #DAE7EF
+            &-green
+                svg path
+                    fill: #E0E8E1
+            &-pink
+                svg path
+                    fill: #FDE4E4
+
+        &__img
+            position: relative
+            img
+                width: 550px
+        &__bubble
+            left: auto
+            right: -300px
+            top: -100px
+            &-mini
+                &1
+                    position: absolute
+                    top: 150px
+                    right: -50px
+                &2
+                    position: absolute
+                    top: 200px
+                    right: -20px
+
+
+.satisfied
+    &-very, &-not, &-not__not
+        display: none
+
+.zone
+    cursor: pointer
+    position: absolute
+    background: transparent
+    color: transparent
+    z-index: 1001
+    outline: none
+    -webkit-user-select: none
+    user-select: none
+    &-nape
+        top: 268px
+        right: 114px
+        width: 50px
+        height: 80px
+    &-chin
+        top: 260px
+        right: 63px
+        width: 50px
+        height: 100px
+    &-head
+        top: 178px
+        right: 46px
+        height: 80px
+        width: 100px
+    &-back
+        top: 296px
+        right: 165px
+        width: 120px
+        height: 50px
+    &-pretail
+        top: 265px
+        right: 276px
+        height: 30px
+        width: 64px
+    &-tail
+        top: 11px
+        right: 311px
+        height: 252px
+        width: 50px
+    &-belly
+        top: 370px
+        right: 223px
+        width: 100px
+        height: 50px
+    &-legs
+        bottom: 20px
+        left: 30px
+        width: 416px
+        height: 115px
+
+@media screen and (max-width: 1199px)
+    .pet
+        &-game
+            width: 768px
+            height: 600px
+            overflow: hidden
+            &__close
+                width: 45px
+                height: 45px
+                top: 10px
+                right: 10px
+                font-size: 25px
+            &__wrapper
+                padding-left: 50px
+                height: 600px
+            &__mainBubble
+                left: 0
+                bottom: 0
+                right: auto
+                top: auto
+            &__bubble
+                padding: 40px
+                left: auto
+                top: -62px
+                right: -142px
+                height: 240px
+
+@media screen and (max-width: 991px)
+    .pet
+        &-img
+            bottom: -35px
+            right: auto
+            left: 50%
+            transform: translateX(-50%)
+        &-modal
+            &__img
+                width: 200px!important
+                height: 200px!important
+                &::after
+                    width: 170px!important
+                    height: 170px!important
+                img
+                    width: 217px!important
+
+@media screen and (max-width: 767px)
+    .pet
+        &-img
+            bottom: 0
+        &-bubble
+            left: 25px
+            &__mini2
+                left: -25px
+                top: 5px
+        &-modal
+            &__cat
+                width: auto!important
+        &-game
+            width: 320px
+            height: 500px
+            &__overlay
+                background: $main
+            &__close
+                cursor: none
+            &__wrapper
+                padding-left: 0
+                height: 500px
+            &__img
+                left: 10px
+                bottom: -80px
+                img
+                    width: 290px
+            &__bubble
+                width: 250px
+                height: 200px
+                top: -200px
+                left: 0
+                right: auto
+                &-mini1
+                    top: -15px
+                    right: 70px
+                &-mini2
+                    top: 50px
+                    right: 50px
+
+            &__mainBubble svg
+                width: 550px
+                height: 450px
+
+    .zone
+        cursor: none
+        &-nape
+            top: 152px
+            right: 52px
+            width: 50px
+            height: 50px
+        &-chin
+            top: 130px
+            right: 32px
+            width: 50px
+            height: 22px
+        &-head
+            top: 90px
+            right: 25px
+            height: 40px
+            width: 50px
+        &-back
+            top: 169px
+            right: 103px
+            width: 70px
+            height: 32px
+        &-pretail
+            top: 138px
+            right: 133px
+            height: 30px
+            width: 64px
+        &-tail
+            top: 11px
+            right: 161px
+            height: 126px
+            width: 30px
+        &-belly
+            top: 200px
+            right: 100px
+            width: 85px
+            height: 26px
+        &-legs
+            bottom: 20px
+            left: 2px
+            width: 250px
+            height: 50px
+
+@media screen and (max-width: 575px)
+    .pet
+        &-modal
+            top: 60%
+
+
+
+
+
+
+

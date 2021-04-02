@@ -1,0 +1,41 @@
+.growcat
+    display: flex
+    align-items: center
+    justify-content: space-between
+    position: relative
+    &-img
+        img
+            width: 500px
+    &-text
+        padding-left: 100px
+    &-title
+        text-align: left
+    &-descr
+        margin-bottom: 30px
+    &-btn
+        margin: 0
+
+@media screen and (max-width: 1199px)
+    .growcat
+        padding-bottom: 500px
+        &-text
+            padding-left: 0
+            max-width: 700px
+        &-img
+            position: absolute
+            right: 0
+            bottom: 0
+
+    .pet
+        &-img
+            transform: rotateY(180deg)
+
+@media screen and (max-width: 767px)
+    .growcat
+        padding-bottom: 360px
+        &-img
+            right: auto
+            left: 50%
+            transform: translateX(-50%)
+            img
+                width: 310px

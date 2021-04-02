@@ -1,0 +1,148 @@
+.footer
+    padding: 300px 0 200px
+    background: url(../img/footer/footer-bg.png) center no-repeat
+    -webkit-background-size: cover
+    background-size: cover
+    -ms-background-position-y: 0
+    background-position-y: 0
+    &-wrapper
+        position: relative
+    &-info
+        position: relative
+        z-index: 1
+        margin-bottom: 75px
+    &-title
+        margin: 0 0 30px 0
+        text-align: left
+    &-descr
+        width: 350px
+        font-weight: 500
+        font-size: 15px
+        line-height: 1.4
+        color: $textLight
+        margin-bottom: 30px
+    &-phone
+        a
+            font-size: 17px
+            font-weight: 700
+            color: $green
+    &-social
+        display: flex
+        justify-content: space-between
+        align-items: center
+        position: relative
+        z-index: 1
+        width: 50%
+        perspective: 100px
+    &-icon
+        display: flex
+        align-items: center
+        width: 65px
+        flex-shrink: 0
+        img
+            transition: transform .3s
+            transform: rotate(15deg)
+        &:hover
+            img
+                transform: rotate(0)
+        &__fb, &__insta
+            img
+                width: 41px
+                height: 41px
+        &__ok
+            img
+                width: 55px
+                height: 55px
+        &__vk
+            img
+                width: 59px
+                transform: rotate(-15deg)
+            &:hover
+                img
+                    transform: rotate(0)
+    &-img
+        position: absolute
+        top: 0
+        right: 0
+        z-index: 0
+
+
+@media screen and (min-width: 1600px)
+    .footer
+        padding-top: 400px
+
+@media screen and (max-width: 991px)
+    .footer
+        padding-bottom: 150px
+        -ms-background-position-x: 45%
+        background-position-x: 45%
+        &-info
+            width: 270px
+        &-descr
+            width: 100%
+        &-img
+            top: auto
+            bottom: -75px
+            img
+                height: 335px
+
+@media screen and (max-width: 767px)
+    .footer
+        padding: 200px 0 125px
+        &-icon
+            &__fb, &__insta
+                img
+                    width: 30px
+                    height: 30px
+            &__ok
+                img
+                    width: 40px
+                    height: 40px
+            &__vk
+                img
+                    width: 42px
+
+@media screen and (max-width: 575px)
+    .footer
+        padding-bottom: 100px
+        &-info
+            width: 200px
+        &-img
+            right: 15px
+            img
+                height: 200px
+        &-descr
+            font-size: 13px
+        &-social
+            width: 55%
+        &-icon
+            width: 55px
+
+@media screen and (max-width: 424px)
+    .footer
+        padding-top: 150px
+
+@media screen and (max-width: 374px)
+    .footer
+        &-icon
+            width: 35px
+            &__fb, &__insta
+                img
+                    width: 25px
+                    height: 25px
+            &__ok
+                img
+                    width: 32px
+                    height: 32px
+            &__vk
+                img
+                    width: 35px
+
+
+
+
+
+
+
+
+

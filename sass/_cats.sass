@@ -1,0 +1,221 @@
+.cats
+    &-title
+        margin-bottom: 50px
+    &-top
+        padding-top: 100px
+    &-options
+        display: flex
+        justify-content: space-between
+    &-option
+        display: flex
+        flex-direction: column
+        justify-content: center
+        text-align: center
+        cursor: pointer
+        &:first-child
+            .cats-img img
+                width: 217px
+    &-img
+        display: block
+        margin-bottom: 30px
+        width: 200px
+        height: 200px
+        position: relative
+        transition: transform .3s
+        &::after
+            content: ''
+            width: 170px
+            height: 170px
+            top: 28px
+            background: #FAD4A5
+            transition: background-color .3s
+            z-index: 1
+            position: absolute
+            left: 50%
+            transform: translateX(-50%)
+            -webkit-border-radius: 50%
+            -moz-border-radius: 50%
+            border-radius: 50%
+        &:hover
+            transform: translateY(-5px)
+            &::after
+                background: $green
+        img
+            width: 100%
+            position: relative
+            z-index: 2
+    &-slider
+        width: 100%
+        .owl-nav
+            display: block !important
+    &-slide
+        margin: auto
+        cursor: pointer
+        width: 270px
+        &__img
+            &-wrap
+                position: relative
+                overflow: hidden
+                &:hover
+                    .cats-slide__img-name
+                        bottom: -155px
+                a img
+                    -webkit-border-radius: 16px
+                    -moz-border-radius: 16px
+                    border-radius: 16px
+            &-title
+                margin-bottom: 10px
+            &-name
+                display: flex
+                align-items: center
+                justify-content: flex-start
+                flex-direction: column
+                width: 310px
+                background: $orange
+                height: 310px
+                -webkit-border-radius: 50%
+                -moz-border-radius: 50%
+                border-radius: 50%
+                padding-top: 50px
+                text-align: center
+                color: #fff
+                position: absolute
+                left: 50%
+                transform: translateX(-50%)
+                bottom: -310px
+                transition: bottom .3s
+
+            &-wrap:first-child
+                margin-bottom: 20px
+
+    &-home
+        &__title
+            margin-bottom: 50px
+        &__blocks
+            display: flex
+            justify-content: space-between
+            align-items: center
+        &__block
+            margin: auto
+            width: 270px
+        &__img
+            margin-bottom: 15px
+            img
+                -webkit-border-radius: 16px
+                -moz-border-radius: 16px
+                border-radius: 16px
+        &__info
+            padding: 20px
+            background: #fff
+            -webkit-border-radius: 7px
+            -moz-border-radius: 7px
+            border-radius: 7px
+        &__name
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin-bottom: 10px
+            span
+                font-size: 20px
+                font-weight: 900
+        &__descr
+            color: #757575
+
+@media screen and (max-width: 1199px)
+    .cats
+        &-slide, &-home__block
+            width: 285px
+        &-home
+            margin-bottom: 200px
+
+@media screen and (max-width: 991px)
+    .cats-option:first-child .cats-img img
+        width: 162px
+    .cats
+        &-img
+            width: 160px
+            height: 160px
+            img
+                width: 150px
+            &::after
+                width: 120px
+                height: 120px
+        &-slider, &-home__blocks
+            margin: auto
+            width: 580px
+        &-slide, &-home__block
+            width: 270px
+
+
+@media screen and (max-width: 767px)
+    .cats-option:first-child .cats-img img
+        width: 140px
+    .cats
+        &-img
+            width: 120px
+            height: 120px
+            img
+                width: 130px
+            &::after
+                width: 100px
+                height: 100px
+        &-slider, &-home__blocks
+            width: 100%
+        &-slide, &-home__block
+            width: 220px
+        &-home
+            margin-bottom: 100px
+            &__img
+                margin-bottom: 5px
+            &__info
+                padding: 10px
+            &__name
+                span
+                    font-size: 16px
+
+@media screen and (max-width: 575px)
+    .cats
+        &-options
+            &__title
+                padding: 0 5px
+                width: 100%
+                text-align: center
+                height: 40px
+        &-slider, &-home__blocks
+            width: 340px
+        &-slide, &-home__block
+            width: 165px
+        &-slide
+            &__img
+                &-wrap
+                    &:first-child
+                        margin-bottom: 5px
+
+@media screen and (max-width: 424px)
+    .cats-option:first-child .cats-img img
+        width: 100px
+    .cats
+        &-option
+            width: 90px
+            flex-shrink: 0
+        &-img
+            margin-left: auto
+            margin-right: auto
+            width: 90px
+            height: 90px
+            img
+                width: 90px
+            &::after
+                width: 60px
+                height: 60px
+
+@media screen and (max-width: 374px)
+    .cats
+        &-slider, &-home__blocks
+            width: 290px
+        &-slide, &-home__block
+            width: 140px
+
+
+
+
